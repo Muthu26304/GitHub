@@ -12,12 +12,12 @@
 }
 
 .mainmenu a{
-    font-size:x-large;
+    font-size:large;
 }
 
 .signupnavbar{
     padding:6px;
-    font-size: x-large;
+    font-size:large;
 }
 
 .maintext{
@@ -147,7 +147,7 @@ section{
 }
 
 .dev h2{
-    margin-top:200px;
+    margin-top:600px;
     font-size:10px;
 }
 
@@ -233,7 +233,7 @@ section{
 }
 
 footer{
-    font-size: 30px;
+    
 }
 
 .lastfooter{
@@ -242,7 +242,7 @@ footer{
 }
 
 .lastfooter ul{
-    font-size:medium;
+    font-size:smaller;
 }
 
 .lastfooter-cont{
@@ -258,16 +258,13 @@ footer{
 @media (max-width:763px) {
 
     .menu div{
-        font-size:medium;
+        font-size:x-small;
     }
 
     .signupnavbar{
-        font-size: medium;
+        font-size:x-small;
     }
 
-    .home{
-        padding-top: 100px;
-    }
     .expbut{
         width: 80%;
     }
@@ -277,36 +274,26 @@ footer{
     }
 
     .plans div{
-        font-size:small;
-    }
-
-    .test{
-        width: 80%;
-        margin: auto;
+        font-size:xx-small;
     }
 
     .workflowrun{
-        width: 80%;
-        height:350px;
-        margin-top: 90px;
+        height: 300px;
+        width: 100%;
     }
 
-    .dev h2{
-        margin-top: 10px;
-        
+    .workflow-png{
+        width: 100%;
+        height: 100%;
     }
+
 
     .dev{
-        padding-top: 10px;
-    }
-
-    .Github{
-        margin: auto;
+        padding-top:50px;
+    
     }
 
     footer{
-        font-size: smaller;
+        font-size: small;
     }
-
-   
 }

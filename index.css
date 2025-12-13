@@ -402,6 +402,10 @@ h2 span {
     justify-content: center;
 }
 
+.addmenu>div{
+    display: flex;
+    justify-content:center;
+}
 .addmenutext {
     padding: 30px;
 }
@@ -443,7 +447,7 @@ h2 span {
 }
 
 .workflow-png{
-    width:400px; 
+    width:350px; 
     height:350px;
 }
 
