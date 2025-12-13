@@ -1,19 +1,23 @@
-/*=========================================X-small===============================================================*/
+/*=========================================medium (md)===============================================================*/
 
-@media screen and (max-width: 575.98px){
+@media (max-width:991.98px){
 
 .home{
-        padding-top: 90px;
+        padding-top:200px;
+        width: 100%;
     }
+
 .menu{
-    padding: 0px 20px;
+    height:70px;
 }
-.mainmenu{
-    transform: scale(0.99);
+
+.mainmenu a{
+    font-size:x-large;
 }
 
 .signupnavbar{
     padding:6px;
+    font-size: x-large;
 }
 
 .maintext{
@@ -24,7 +28,7 @@
 
 .mainpara p{
     width: 100%;
-    font-size:xx-small;
+    font-size:medium;
 }
 
 section{
@@ -32,11 +36,13 @@ section{
 }
 
 .plans{
-    width: 80%;
+    width:50%;
+    padding: 10px;
+    height: auto;
 }
 
 .plans div{
-    font-size: smaller;
+    font-size:medium;
 }
 
 .home{
@@ -73,13 +79,24 @@ section{
 }
 .email,.signup{
     width: 100%;
-    font-size:xx-small;
+    font-size:x-small;
     text-align: center;
 }
 
+.workflowrun{
+    width: 80%;
+    height:500px;
+    margin-top: 90px;
+}
+
+.workflowrun div{
+    width: 100%;
+    height: 100%;
+}
+
 .workflow-png{
-    width:300px; 
-    height:150px;
+    width:100%; 
+    height:100%;
 }
 .cloud1,.cloud2{
     display:none;
@@ -87,8 +104,8 @@ section{
 
 .expbut{
     margin: auto;
-    width: 80%;
-    font-size:10px;
+    width: 50%;
+    font-size:20px;
 }
 
 .herosection{
@@ -212,6 +229,11 @@ section{
     grid-column: 1/3;
     height: auto;
     padding: 0px;
+    margin: auto;
+}
+
+footer{
+    font-size: 30px;
 }
 
 .lastfooter{
@@ -220,7 +242,7 @@ section{
 }
 
 .lastfooter ul{
-    font-size:xx-small;
+    font-size:medium;
 }
 
 .lastfooter-cont{
@@ -229,4 +251,62 @@ section{
     gap:10px;
 }
 
+}
+
+/*=================small (sm)==================================*/
+
+@media (max-width:763px) {
+
+    .menu div{
+        font-size:medium;
+    }
+
+    .signupnavbar{
+        font-size: medium;
+    }
+
+    .home{
+        padding-top: 100px;
+    }
+    .expbut{
+        width: 80%;
+    }
+
+    .plans{
+        width: 80%;
+    }
+
+    .plans div{
+        font-size:small;
+    }
+
+    .test{
+        width: 80%;
+        margin: auto;
+    }
+
+    .workflowrun{
+        width: 80%;
+        height:350px;
+        margin-top: 90px;
+    }
+
+    .dev h2{
+        margin-top: 10px;
+        
+    }
+
+    .dev{
+        padding-top: 10px;
+    }
+
+    .Github{
+        margin: auto;
+    }
+
+    footer{
+        font-size: smaller;
+    }
+
+   
 }
