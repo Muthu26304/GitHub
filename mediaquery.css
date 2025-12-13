@@ -296,4 +296,17 @@ footer{
     footer{
         font-size: small;
     }
+
+    .lightfonts{
+        width: 100%;
+        font-size: small;
+    }
+
+    .main-blocks{
+        width: 100%;
+    }
+
+    .enterprise{
+        width:95%;
+    }
 }
