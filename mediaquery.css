@@ -284,11 +284,11 @@ footer{
 @media (max-width:763px) {
 
     .menu a{
-        font-size:15px;
+        font-size:x-small;
     }
 
     .signupnavbar{
-        font-size:15px;
+        font-size:x-small;
     }
 
     .expbut{
@@ -346,5 +346,9 @@ footer{
         flex-direction: column;
     }
 
+    .sort-drop{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
