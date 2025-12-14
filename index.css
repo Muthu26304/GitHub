@@ -32,7 +32,12 @@ a {
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:xx-large;
+    color: white;
     
+}
+
+.h-auto{
+    height: auto;
 }
 
 /* ========================================================== */
@@ -104,10 +109,10 @@ header {
 /* ========================================================== */
 
 .home {
-    height: 100vh;
+    height:auto;
     width: 100%;
     background:linear-gradient(rgb(0, 0, 59) 0%, rgb(9, 4, 42));
-    padding-top: 150px;
+    padding: 150px 0px;
     position: relative;
 }
 
@@ -1047,11 +1052,96 @@ main {
 }
 
 
+/*=======================opensource==================================*/
 
 
+.seeall:hover{
+    text-decoration: underline;
+}
 
+.meeting{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
 
+    color: white;
+    margin-top: 20px;
 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.card{
+    height: 60vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+
+.card_img{
+    height: 80%;
+    overflow: hidden;
+    border-radius:10px;
+}
+
+.card_img>img{
+    height:100%;
+}
+
+.card:hover>.card_img>img{
+    transform: scale(1.05) translateZ(50px);
+    transition-duration: 2s;
+    
+}
+
+.pills{
+    margin-top:50px;
+    background-color: #111215;
+    width:80%;
+    margin: auto;
+    padding:50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pills p{
+    color: #939393;    
+}
+
+.drop>select{
+    margin-top:20px;
+    color: white;
+    background-color: #000000;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sort-drop{
+   display: flex;
+   gap:20px;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.buffer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:30px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
 
 
 
