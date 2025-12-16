@@ -721,7 +721,7 @@ main {
     flex: 1;
     width: 100%;
     height: 100%;
-    background-image: url('signup-img.png');
+    background-image: url('img/signup-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1054,6 +1054,12 @@ main {
 
 /*=======================opensource==================================*/
 
+.open-home{
+     height:auto;
+    width: 100%;
+    background:linear-gradient(rgb(0, 0, 59) 0%, rgb(0, 0, 0));
+    padding: 150px 0px;
+}
 
 .seeall:hover{
     text-decoration: underline;
