@@ -160,7 +160,8 @@ section{
 /*singup page*/
 
 .signup-page{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-img-block img{
@@ -168,7 +169,7 @@ section{
 }
 
 .signup-img-block{
-    height: 20vh;
+    display: none;
 }
 
 .price-grid{
@@ -216,26 +217,25 @@ section{
 }
 
 .mainfooter{
-    padding: 0px;
+    padding:40px;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     text-align: center;
 }
 .Github button{
     margin: auto;
 }
 .Github{
-    grid-column: 1/3;
+    grid-column: 1/5;
     height: auto;
     padding: 0px;
     margin: auto;
 }
 
-footer{
-    
-}
+
+
 
 .lastfooter{
     height: auto;
@@ -354,5 +354,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
+
+
 
 }
